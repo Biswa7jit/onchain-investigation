@@ -123,7 +123,7 @@ All standard Excel — no add-ins, no VBA:
 
 ## Results
 
-![Fund flow analysis](screenshots/fund_flow_analysis.png)
+![Fund flow analysis](fund_flow_analysis.png)
 
 All five typologies fire exactly where the case narrative says they
 should: the mixer flag catches both the deposit (hop 8) and the
@@ -133,7 +133,7 @@ Recipient` rule; and the rapid-succession flag correctly isolates the
 five-to-six-minute gaps between the three exchange-side smurfing
 transactions at the end of the case.
 
-![Address book](screenshots/address_book.png)
+![Address book](address_book.png)
 
 ## The most important design choice in this project
 
@@ -168,10 +168,6 @@ investigation — see §4 of the report for the full reasoning.
 
 ## About
 
-Built by [Your Name], CAMS-certified compliance analyst exploring
+Built by Biswajit Das, Crypto compliance analyst exploring
 crypto-asset AML/compliance, as a portfolio piece connecting
 traditional fund-flow investigation technique to on-chain analysis.
-See also: [link to SQL AML project], [link to Excel AML transaction
-monitoring project], [link to Sanctions & PEP screening project],
-[link to Customer Risk Rating Model project], [link to AML QA Review
-project], and [link to Medium AML/crypto compliance article series].
