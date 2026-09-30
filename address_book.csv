@@ -1,0 +1,14 @@
+address,label,entity_type,notes
+0x41cf6794ba4200b839c53531555f0f3998df4cbb,Unattributed Source Wallet,Unattributed,Origin of the initial 150.0 ETH inbound transfer; no prior on-chain history consistent with legitimate commercial activity. Possible phishing/scam proceeds based on inflow pattern.
+0xa9491f4c1bf7b0cffbadcba2db8f028e4b3f2867,Subject Wallet,Subject,Wallet under investigation. Received the initial suspicious inbound transfer and began fund movement within 45 minutes.
+0xd411435a721021cb7aeddf4d2a17fe6c2886edce,Intermediate Wallet 1,Intermediate,First-hop relay wallet. No prior transaction history before receiving funds in this case.
+0xe618cde218b4942ea477fdc0842004c7034eccbf,Intermediate Wallet 2,Intermediate,Second-hop relay wallet.
+0x0b376ba92b86cde173e771d9e0196f67e994879e,Intermediate Wallet 3,Intermediate,Third-hop relay wallet; splits funds between a mixing service and a direct path.
+0x35adcc71f4253aa1c9d55e066f9f94f455509d00,Peel Wallet A,Peel Recipient,Received a small 'peeled' amount from the Subject Wallet; later consolidated to an exchange deposit address.
+0x6fb424c245eb8726beb7a01b86da3c33242e4628,Peel Wallet B,Peel Recipient,Received a small 'peeled' amount from Intermediate Wallet 1.
+0x74b6c09c13fc818683fbe392ef0f9e33b18b1823,Peel Wallet C,Peel Recipient,Received a small 'peeled' amount from Intermediate Wallet 2.
+0xf36d66efd7ec31ea958ad172a27670d604596fe6,Mixing Service - Deposit Address,Mixer,Known non-custodial mixing service deposit address (generic/illustrative label). Funds sent here cannot be deterministically traced on-chain past this point.
+0xb8dbc8f75bca77f9b9d225d5d3f81bd35cb8e53d,Mixing Service - Withdrawal Address,Mixer,A withdrawal-side address from the same mixing service pool. Correlation to the deposit above is based on timing and amount proximity only — NOT a proven on-chain link.
+0xebc9b532930cb42777690502029973a8c907eeb5,Consolidation Wallet,Intermediate,Receives funds from both the direct (non-mixed) path and the suspected mixer outflow before final cash-out.
+0xc2778c246a47f355bfa6354c256725ecdef9a48a,Exchange Alpha - Deposit Address,Exchange,Known hot wallet / deposit address cluster attributed to a centralized exchange (illustrative label 'Exchange Alpha'). Primary cash-out point identified in this case.
+0xd521333e61d8f3e7e17a4ba6bda7a480916ed456,Exchange Beta - Deposit Address,Exchange,Known hot wallet / deposit address cluster attributed to a second centralized exchange (illustrative label 'Exchange Beta'). Secondary cash-out point for peeled amounts.
